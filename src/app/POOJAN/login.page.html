@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true" force-overscroll="false">
+  <div id="content" class="logo-screen--wrapper">
+    <div class="main-logo">
+      <img src="../../../assets/images/logo.png" alt="system-logo" />
+    </div>
+    <div class="login-page-content--wrapper">
+      <ion-button
+        id="login"
+        class="btn btn-primary login-btn"
+        (click)="login($event)"
+        router-direction="none"
+      >
+        Login with Azure
+      </ion-button>
+      <div class="company-label">
+        <span>BIN Management</span>
+      </div>
+    </div>
+  </div>
+</ion-content>
